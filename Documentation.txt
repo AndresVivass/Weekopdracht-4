@@ -1,0 +1,15 @@
+=============================
+Installing Salt-Master
+=============================
+curl -L https://bootstrap.saltstack.com -o install_salt.sh
+sudo sh install_salt.sh -M
+
+(after minion installation)
+salt-key --accept-all [y]
+
+=============================
+Installing Salt-Minion
+=============================
+curl -L https://bootstrap.saltstack.com -o install_salt.sh
+
+sudo sh -c "echo '192.168.56.10 UBU1604master' >> /etc/hosts"
