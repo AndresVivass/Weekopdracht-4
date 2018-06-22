@@ -13,3 +13,5 @@ Installing Salt-Minion
 curl -L https://bootstrap.saltstack.com -o install_salt.sh
 
 sudo sh -c "echo '192.168.56.10 UBU1604master' >> /etc/hosts"
+
+
